@@ -12,7 +12,7 @@ function checkAnswer() {
 
     const userAnswer = selectedOption.value
     //complaring answers
-    if (userAnswer===correctAnswer){
+    if (userAnswer === correctAnswer){
         document.getElementById("feedback").textContent="Correct! Well done.";
     
     } else {
